@@ -1,0 +1,159 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f0ff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Dashboard & Category Page */
+.dashboard, .category-page {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Titles */
+h2 {
+  font-size: 1.6rem;
+  color: #6a33a0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Inputs */
+.input-field {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #a366ff;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+/* Buttons */
+.save-btn, .back-btn, .category-delete-btn, .link-delete {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  background-color: #4b006f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 0.8rem;
+  margin: 5px 0;
+  transition: background-color 0.2s;
+}
+.save-btn:hover, .back-btn:hover, .category-delete-btn:hover, .link-delete:hover {
+  background-color: #6a33a0;
+}
+
+/* Categories List */
+.categories-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Each category row */
+.category-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Category Card */
+.category-card {
+  background-color: #2c003e;
+  color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  flex: 1;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/* Category Delete Button (smaller) */
+.category-delete-btn {
+  padding: 4px 8px;
+  font-size: 0.75rem;
+}
+
+/* Links List */
+.links-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Link Card: 2 per row */
+.link-card {
+  background-color: #2c003e;
+  color: #fff;
+  padding: 8px;
+  border-radius: 8px;
+  flex: 1 1 calc(50% - 5px);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* Link Card Description */
+.link-card p {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+/* Link Card Buttons Row */
+.link-card div {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+/* Link Button */
+.link-card a {
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: #4b006f;
+  font-size: 0.75rem;
+  flex: 1;
+  text-align: center;
+}
+
+.link-card a:hover {
+  background-color: #6a33a0;
+}
+
+/* Back Button */
+.back-btn {
+  align-self: center;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background-color: #4b006f;
+  color: #fff;
+}
+.back-btn:hover {
+  background-color: #6a33a0;
+}
+
+/* Input Container for Category Page */
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 15px;
+}
